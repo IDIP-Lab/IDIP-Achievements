@@ -17,7 +17,9 @@ Keywords: Infrared small targets detection, infrared small targets segmentation,
     - [Deep Learning-Based Method](#deep-learning-based-method)
       - [Single-Frame](#single-frame)
     - [Deep Unfolding-Based Methods](#deep-unfolding-based-methods)
+  - [Infrared Ship Detection](#infrared-ship-detection)
   - [Datasets](#datasets)
+    - [Infrared Ship Dataset](#infrared-ship-dataset)
     - [Visible Generic Dataset](#visible-generic-dataset)
   - [Recommended Benchmarks](#recommended-benchmarks)
   - [Webpage](#webpage)
@@ -34,11 +36,14 @@ Keywords: Infrared small targets detection, infrared small targets segmentation,
 - **PSTNN**, Infrared small target detection based on partial sum of the tensor nuclear norm.
   - Zhang L, Peng Z. **Remote Sensing, 2019**.
   - [![](https://img.shields.io/badge/Link-Paper-blue)](https://www.mdpi.com/2072-4292/11/4/382) [![](https://img.shields.io/badge/Code-Matlab-orange)](https://github.com/Lanneeee/Infrared-Small-Target-Detection-based-on-PSTNN)
+- **NARIRM**, Nonlocal affinity-based robust interference-resistant model for infrared small target detection.
+  - J.Deng, X.Cui, K.Li, J.Hu, C.Long, Y.Yin. **GRSL, 2025**.
+  - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/abstract/document/10980125) [![](https://img.shields.io/badge/Code-python-orange)](https://github.com/djk1997-jk/NARIRM)
 
 ### [Deep Learning-Based Method](#table-of-contents)
 #### [Single-Frame](#table-of-contents)
 - **AGPCNet**, Attention-Guided Pyramid Context Networks for Infrared Small Target Detection.
-  - Tianfang Zhang, Lei Li, Siying Cao, Tian Pu, Zhenming Peng. **TAES, 2023**.
+  - T.Zhang, L.Li, S.Cao, T.Pu, Z.Peng. **TAES, 2023**.
   - [![](https://img.shields.io/badge/Link-Paper-blue)](https://arxiv.org/abs/2111.03580) [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/Tianfang-Zhang/AGPCNet)
 
 - **DATransNet**: dynamic attention transformer network for infrared small target detection.
@@ -50,9 +55,20 @@ Keywords: Infrared small targets detection, infrared small targets segmentation,
 - **RPCANet**: Deep Unfolding RPCA Based Infrared Small Target Detection.
   - F. Wu, T. Zhang, L. Li, Y. Huang, and Z. Peng. **WACV, 2024**.
   - [![](https://img.shields.io/badge/Link-Paper-blue)](https://openaccess.thecvf.com/content/WACV2024/html/Wu_RPCANet_Deep_Unfolding_RPCA_Based_Infrared_Small_Target_Detection_WACV_2024_paper.html) [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/fengyiwu98/RPCANet)
-
+  
+## [Infrared Ship Detection](#table-of-contents)
+- **SMPISD-MTPNet**: Scene Semantic Prior-Assisted Infrared Ship Detection Using Multitask Perception Networks.
+  - C. Hu, X. Dong, Y. Huang, L. Wang, L. Xu and T. Peng. **TGRS, 2024**.
+  - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/abstract/document/10802996) [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/greekinRoma/SMPISD-MTPNet)
 
 ## [Datasets](#table-of-contents)
+### [Infrared Ship Dataset](#table-of-contents)
+- **IRSDSS**: SMPISD-MTPNet: Scene Semantic Prior-Assisted Infrared Ship Detection Using Multitask Perception Networks.
+  - C. Hu, X. Dong, Y. Huang, L. Wang, L. Xu and T. Peng. **TGRS, 2024**.
+  - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/abstract/document/10802996) [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/greekinRoma/SMPISD-MTPNet) [![](https://img.shields.io/badge/Link-Dataset-green)](https://pan.baidu.com/s/1FwSVOrNgu1XJO6EvucWNGA?pwd=hchc)
+- **EISDD**: SMPISD-MTPNet: Scene Semantic Prior-Assisted Infrared Ship Detection Using Multitask Perception Networks.
+  - C. Hu, X. Dong, Y. Huang, L. Wang, L. Xu and T. Peng. **TGRS, 2024**.
+  - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/abstract/document/10802996) [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/greekinRoma/SMPISD-MTPNet) [![](https://img.shields.io/badge/Link-Dataset-green)](https://pan.baidu.com/s/1FwSVOrNgu1XJO6EvucWNGA?pwd=hchc)
 ### [Visible Generic Dataset](#table-of-contents)
 - **TeaBudSort_Dataset**: A dataset for Tea Bud Detection.
   - [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/IDIP-Lab/TeaBudSort#) [![](https://img.shields.io/badge/Link-Dataset-green)](https://huggingface.co/datasets/IDIP-Lab/TeaBudSort_Dataset/tree/main)
