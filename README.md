@@ -57,6 +57,14 @@ Keywords: Infrared small targets detection, infrared small targets segmentation,
   - C.Hu, Y.Huang, K.Li, L.Zhang, C.Long, Y.Zhu, T.Pu, and Z.Peng. **GRSL, 2025**.
   - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/abstract/document/10947728) [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/greekinRoma/DATransNet)
 
+- **CSPENet**: Contour-Aware and Saliency Priors Embedding Network for Infrared Small-Target Detection.
+  - J.Deng, K.Li, K.Li, X.Cui, J.Li, C.Long, and T.Pu. **TGRS, 2025**.
+  - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/document/11177540) [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/IDIP-Lab/CSPENet)
+
+- **ARFHANet**: Adaptive Receptive Field and Hierarchical Attention Network for Infrared Small-Target Detection.
+  - X.Cui, J.Luo, J.Deng, K.Li, X.Qiu, and Z.Peng. **JSTARS, 2025**.
+  - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/abstract/document/11217392)
+
 #### [Multi-Frame](#table-of-contents)
 - **STLManba**: Local-Motion Mamba with Frequency-Guided for Moving Infrared Small Target Detection.
   - X.Qiu, J.Luo, W.Tian, F.He, Y.Huang, C.Hu, and Z.Peng. **GRSL, 2026**.
