@@ -14,8 +14,10 @@ Keywords: Infrared small targets detection, infrared small targets segmentation,
   - [Infrared Small Target Detection](#infrared-small-target-detection)
     - [Optimization-Based Methods](#optimization-based-methods)
       - [Tensor: Single-Frame](#tensor-single-frame)
+      - [Tensor: Multi-Frame](#tensor-multi-frame)
     - [Deep Learning-Based Method](#deep-learning-based-method)
       - [Single-Frame](#single-frame)
+      - [Multi-Frame](#multi-frame)
     - [Deep Unfolding-Based Methods](#deep-unfolding-based-methods)
   - [Infrared Ship Detection](#infrared-ship-detection)
   - [Datasets](#datasets)
@@ -34,21 +36,31 @@ Keywords: Infrared small targets detection, infrared small targets segmentation,
 ### [Optimization-Based Methods](#table-of-contents)
 #### [Tensor: Single-Frame](#table-of-contents)
 - **PSTNN**, Infrared small target detection based on partial sum of the tensor nuclear norm.
-  - Zhang L, Peng Z. **Remote Sensing, 2019**.
+  - L.Zhang, Z.Peng. **Remote Sensing, 2019**.
   - [![](https://img.shields.io/badge/Link-Paper-blue)](https://www.mdpi.com/2072-4292/11/4/382) [![](https://img.shields.io/badge/Code-Matlab-orange)](https://github.com/Lanneeee/Infrared-Small-Target-Detection-based-on-PSTNN)
 - **NARIRM**, Nonlocal affinity-based robust interference-resistant model for infrared small target detection.
-  - J.Deng, X.Cui, K.Li, J.Hu, C.Long, Y.Yin. **GRSL, 2025**.
+  - J.Deng, X.Cui, K.Li, J.Hu, C.Long, Y.Yin. **TGRS, 2026**.
   - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/abstract/document/10980125) [![](https://img.shields.io/badge/Code-python-orange)](https://github.com/djk1997-jk/NARIRM)
+
+#### [Tensor: Multi-Frame](#table-of-contents)
+- **SPTA-FCTN**, A Comprehensive Benchmark for Spatio-Temporal Tensor-Based Infrared Small Target Detection.
+  - F.Wu, S.Chen, S.Liu, B.Tao, J.Luo, Z.Peng. **GRSL, 2026**.
+  - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/document/11333368) [![](https://img.shields.io/badge/Code-python-orange)](https://github.com/fengyiwu98/TensorISTD)
 
 ### [Deep Learning-Based Method](#table-of-contents)
 #### [Single-Frame](#table-of-contents)
 - **AGPCNet**, Attention-Guided Pyramid Context Networks for Infrared Small Target Detection.
   - T.Zhang, L.Li, S.Cao, T.Pu, Z.Peng. **TAES, 2023**.
-  - [![](https://img.shields.io/badge/Link-Paper-blue)](https://arxiv.org/abs/2111.03580) [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/Tianfang-Zhang/AGPCNet)
+  - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/abstract/document/10024907) [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/Tianfang-Zhang/AGPCNet)
 
-- **DATransNet**: dynamic attention transformer network for infrared small target detection.
+- **DATransNet**: Dynamic Attention Transformer Network for Infrared Small Target Detection.
   - C.Hu, Y.Huang, K.Li, L.Zhang, C.Long, Y.Zhu, T.Pu, and Z.Peng. **GRSL, 2025**.
   - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/abstract/document/10947728) [![](https://img.shields.io/badge/Code-PyTorch-orange)](https://github.com/greekinRoma/DATransNet)
+
+#### [Multi-Frame](#table-of-contents)
+- **STLManba**: Local-Motion Mamba with Frequency-Guided for Moving Infrared Small Target Detection.
+  - X.Qiu, J.Luo, W.Tian, F.He, Y.Huang, C.Hu, and Z.Peng. **GRSL, 2026**.
+  - [![](https://img.shields.io/badge/Link-Paper-blue)](https://ieeexplore.ieee.org/document/11352796) 
 
 ### [Deep Unfolding-Based Methods](#table-of-contents)
 
@@ -78,6 +90,7 @@ Keywords: Infrared small targets detection, infrared small targets segmentation,
 | Title  |  Date  | Link |
 |:------|:------:|:------:|
 |ISTD Python|2021|https://github.com/Tianfang-Zhang/ISTD-python|
+|TensorISTD Python|2026|https://github.com/fengyiwu98/TensorISTD|
 
 ## Webpage
 - Github [![](https://img.shields.io/badge/Link-Website-yellow)](https://github.com/IDIP-Lab)
